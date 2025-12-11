@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / OS files
+.env
+.venv/
+env/
+venv/
+*.swp
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Large / intermediate data (optional)
+data/raw/*
+data/processed/*
+!data/.gitkeep
+!data/README.md
+
+# Results that can be regenerated (optional)
+results/*
+!results/.gitkeep
+!results/README.md
+
+# Figures that can be regenerated (optional)
+figures/*
+!figures/.gitkeep
+!figures/README.md
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+
+# Misc
+*.bak
