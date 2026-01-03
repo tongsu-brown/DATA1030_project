@@ -19,8 +19,9 @@ The main workflow is in the notebook below.
 1. Launch Jupyter:
 ```bash
 jupyter lab
-
+```
 2. Open and run:
+```bash
 src/all_metal_showcase.ipynb
 ```
 
