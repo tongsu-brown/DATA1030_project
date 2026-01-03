@@ -1,4 +1,4 @@
-# DATA1030_project
+**# DATA1030_project
 # Thin-Film Stress Prediction with Machine Learning (DATA 1030 Final Project)
 
 This repository contains the code and report for my DATA 1030 final project, where I apply supervised machine learning to predict **stress-thickness** behavior in thin films from process and material parameters.
@@ -11,8 +11,12 @@ The goal is to:
 
 ## Reproducibility
 
+The stress database is not avaliable yet as some paper is still under preparation. But the all the data is avaliable based on request to the email:
+tong_su@brown.edu
+
 ### Environment
 Create the conda environment:
 ```bash
 conda env create -f environment.yml
 conda activate data1030
+**
