@@ -1,22 +1,22 @@
-**# DATA1030_project
-# Thin-Film Stress Prediction with Machine Learning (DATA 1030 Final Project)
+# DATA1030 Project
+## Thin-Film Stress–Thickness Prediction with Machine Learning (DATA 1030 Final Project)
 
-This repository contains the code and report for my DATA 1030 final project, where I apply supervised machine learning to predict **stress-thickness** behavior in thin films from process and material parameters.
+This repository contains the code and report for my DATA 1030 final project. I apply supervised machine learning to predict **stress–thickness behavior** in thin films from deposition process conditions and basic material descriptors.
 
-The goal is to:
-- Build and evaluate regression models (e.g. Gradient Boosting) to predict stress-thickness.
-- Analyze feature importance and model behavior using tools like SHAP.
-- Provide a fully reproducible pipeline from raw data to figures and final results.
-- Provide the prototype for the universal thin film stress model 
+Project goals:
+- Train and evaluate multiple regression models (e.g., Random Forest, Gradient Boosting) to predict stress–thickness.
+- Interpret model behavior using global feature importance (permutation / SHAP / built-in tree importances) and local explanations (SHAP).
+- Provide a reproducible pipeline that generates the figures and results used in the final report.
+- Serve as a prototype toward a universal thin-film stress modeling framework.
+
+## Data availability
+The full stress–thickness database is not publicly distributed at this time (ongoing manuscript preparation).  
+Data can be shared for academic use upon request: **tong_su@brown.edu**.
 
 ## Reproducibility
 
-The stress database is not avaliable yet as some paper is still under preparation. But the all the data is avaliable based on request to the email:
-tong_su@brown.edu
-
 ### Environment
-Create the conda environment:
+Create and activate the conda environment:
 ```bash
 conda env create -f environment.yml
 conda activate data1030
-**
