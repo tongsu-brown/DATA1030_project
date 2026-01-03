@@ -22,6 +22,7 @@ jupyter lab
 
 2. Open and run:
 src/all_metal_showcase.ipynb
+###
 
 ## Repository structure
 - `src/`: source code / notebooks (preprocessing, training, evaluation)
