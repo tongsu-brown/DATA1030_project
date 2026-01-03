@@ -13,14 +13,14 @@ Project goals:
 The full stress–thickness database is not publicly distributed at this time (ongoing manuscript preparation).  
 Data can be shared for academic use upon request: **tong_su@brown.edu**.
 
-### Environment
+## Environment
 Create and activate the conda environment:
 ```bash
 conda env create -f environment.yml
 conda activate data1030
 ```
 
-### Run (reproduce figures/results)
+## Run (reproduce figures/results)
 The main workflow is in the notebook below.
 
 1. Launch Jupyter:
