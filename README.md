@@ -32,7 +32,7 @@ jupyter lab
 src/all_metal_showcase.ipynb
 ```
 
-## Repository structure
+### Repository structure
 - `src/`: source code / notebooks (preprocessing, training, evaluation)
 - `results/`: saved predictions and metrics
 - `figures/`: generated figures used in the report
