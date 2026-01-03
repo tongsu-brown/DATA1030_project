@@ -8,3 +8,11 @@ The goal is to:
 - Analyze feature importance and model behavior using tools like SHAP.
 - Provide a fully reproducible pipeline from raw data to figures and final results.
 - Provide the prototype for the universal thin film stress model 
+
+## Reproducibility
+
+### Environment
+Create the conda environment:
+```bash
+conda env create -f environment.yml
+conda activate data1030
